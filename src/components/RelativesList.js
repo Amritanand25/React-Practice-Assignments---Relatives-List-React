@@ -3,7 +3,7 @@ import React from "react"
 function RelativesList() {
     return (
         <>
-        <ol>
+        <ol key={"relativeList"}>
              <li key={"relativeListItem1"}>Father</li>
              <li key={"relativeListItem2"}>Mother</li>
              <li key={"relativeListItem3"}>Sister</li>
